@@ -9,7 +9,7 @@ function loginclick() {
         sessionStorage.setItem("namme", naame)
         sessionStorage.setItem("emila", emil)
         sessionStorage.setItem("passw", pass)
-        window.location.assign("/index.html");
+        window.location.assign("Singupin/index.html");
     }
 }
 function getvalue() {
