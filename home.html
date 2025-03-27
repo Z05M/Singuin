@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Home Page</title>
+</head>
+
+<body style="display: flex; flex-direction: column;text-align: center;" onload="getvalue()" >
+<h1 id="titel">Home</h1>
+
+
+<div style="gap: 20px;">
+    <div>
+        <label class="Label-homepage">Full Name</label>
+        <input type="text" class="Textbox-singinpage" name="Yourname" >
+    </div>
+    <div style="margin-top: 20px;">
+        <label class="Label-homepage">Emall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" class="Textbox-singinpage" name="Youremail" >
+    </div>
+    <input type="button" value="Change" class="creataccount" onclick="changepass()">
+    <input type="button" value="Sing out" class="creataccount" onclick="singout()">
+
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
